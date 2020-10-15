@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+
+//Módulos
+import { ComponentsModule } from '../components/components.module';
 import { SharedModule } from '../shared/shared.module';
 
 import { MainComponent } from './main.component';
@@ -24,6 +27,7 @@ import { Grafica1Component } from './grafica1/grafica1.component';
   ],
   imports: [
     CommonModule,
+    ComponentsModule,
     SharedModule,
     RouterModule
   ]
